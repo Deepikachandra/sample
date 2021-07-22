@@ -1,0 +1,30 @@
+.header{
+  text-align: center;
+  height: 4em;
+  padding-top: 1em;
+  background-color: brown;
+}
+
+#cart-button{
+  padding:0em;
+}
+
+.home-img{
+  max-width: 100%;
+  height: auto;
+  padding:1em;
+  border-radius: 5%;
+}
+
+.product-img{
+  max-width: 100%;
+  height: auto;
+  padding:.5em;
+  border-radius: 5%;
+}
+
+@media (max-width:430px){
+  #addToCart-button{
+    padding:.25em;
+  }
+}
